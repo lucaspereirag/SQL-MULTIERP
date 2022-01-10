@@ -16,3 +16,15 @@ SELECT	NOME FROM ESTUDANTE WHERE NOME REGEXP  '^TO'
 
 USE nome_database
 SELECT	* FROM INFORMATION_SCHEMA.TABLES
+
+
+
+
+/*
+##################				TRIGGERS				##################
+*/
+
+--Evidencia todas os triggers de uma database
+
+USE	nome_database
+SELECT	*	FROM sys.triggers
