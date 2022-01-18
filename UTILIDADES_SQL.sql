@@ -14,7 +14,8 @@ SELECT	NOME FROM ESTUDANTE WHERE NOME REGEXP  '^TO'
 
 --Evidencia todas as tabelas presentes em uma Database
 
-USE nome_database
+USE MINIERP
+
 SELECT	* FROM INFORMATION_SCHEMA.TABLES
 
 
@@ -28,3 +29,12 @@ SELECT	* FROM INFORMATION_SCHEMA.TABLES
 
 USE	nome_database
 SELECT	*	FROM sys.triggers
+
+
+
+
+/*
+##################				ALTERAR O TIPO DE DADO DA COLUNA				##################
+*/
+
+ALTER TABLE nome_tabela	ALTER COLUMN nome_da_coluna VARCHAR(20) NOT NULL 
