@@ -19,6 +19,10 @@ USE MINIERP
 SELECT	* FROM INFORMATION_SCHEMA.TABLES
 
 
+-- Evidencia todos os campos e tipos de dados
+SP_HELP --nome_da_tabela
+
+
 
 
 /*
